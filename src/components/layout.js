@@ -30,6 +30,7 @@ const Layout = ({ children }) => {
       <footer>
         <div>
           <ul className={style.nav}>
+            <li className={style.nav__link}>Dribbble</li>
             <li className={style.nav__link}>Codepen</li>
             <li className={style.nav__link}>Github</li>
           </ul>
