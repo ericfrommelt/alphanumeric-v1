@@ -1,9 +1,11 @@
 import * as React from 'react'
+import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import style from './index.module.css'
 import Art00001 from '../components/art/art0001'
+import Work from '../components/work'
 
-const IndexPage = () => {
+const IndexPage = (props) => {
   return (
     <Layout>
       <section className={style.intro}>
@@ -14,6 +16,7 @@ const IndexPage = () => {
           <Art00001></Art00001>
         </figure>
       </section>
+      <Work />
     </Layout>
   )
 }

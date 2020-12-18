@@ -28,11 +28,11 @@ const Layout = ({ children }) => {
         {children}
       </main>
       <footer>
-        <div>
+        <div className={style.projectHpe}>
           <ul className={style.nav}>
-            <li className={style.nav__link}>Dribbble</li>
-            <li className={style.nav__link}>Codepen</li>
-            <li className={style.nav__link}>Github</li>
+            <li className={style.nav__link}><a href="https://dribbble.com/ericfrommelt" target="_blank">Dribbble</a></li>
+            <li className={style.nav__link}><a href="https://codepen.io/alphanumeric" target="_blank">Codepen</a></li>
+            <li className={style.nav__link}><a href="https://github.com/ericfrommelt" target="_blank">Github</a></li>
           </ul>
         </div>
       </footer>
