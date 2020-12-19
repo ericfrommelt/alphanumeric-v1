@@ -1,36 +1,42 @@
 .intro {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1;
   margin: 4em 0;
 }
 
-.intro__copy {
-  flex: 1;
-  align-self: center;
-  padding-right: 2em;
-  font-family: "Quarto A", "Quarto B";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 0.8rem;
-  line-height: 1rem;
-}
-
 @media screen and (min-width: 760px) {
-  .intro__copy {
-    font-size: 1.4rem;
-    line-height: 1.8rem;
+  .intro {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em;
+    margin: 8em 0;
   }
 }
 
-@media screen and (min-width: 1200px) {
+.intro__content {
+  grid-column: 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.intro__copy {
+  margin-top: 0.5em;
+  align-self: center;
+  font-family: "Quarto A", "Quarto B";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+@media screen and (min-width: 760px) {
   .intro__copy {
     font-size: 2rem;
     line-height: 2.4rem;
   }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
   .intro__copy {
     font-size: 2.6rem;
     line-height: 3rem;
@@ -44,9 +50,23 @@
   }
 }
 
+.intro__copy__sans {
+  font-family: "Ringside Narrow SSm A", "Ringside Narrow SSm B", -apple-system,
+    sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
 .artwork {
-  flex: 1;
+  display: none;
+  grid-column: 2;
   background-color: #000;
   border-radius: 1em;
   line-height: 0px;
+}
+
+@media screen and (min-width: 760px) {
+  .artwork {
+    display: block;
+  }
 }
