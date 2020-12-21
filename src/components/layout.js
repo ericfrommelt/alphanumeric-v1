@@ -18,24 +18,13 @@ const Layout = ({ children }) => {
         </div>
         <nav>
           <ul className={style.nav}>
-            <li className={style.nav__link}>About</li>
-            <li className={style.nav__link}>Notes</li>
-            <li className={style.nav__link}>Contact</li>
+            <li className={style.nav__link}><Link to='/contact/'>Contact</Link></li>
           </ul>
         </nav>
       </header>
       <main>
         {children}
       </main>
-      <footer>
-        <div className={style.projectHpe}>
-          <ul className={style.nav}>
-            <li className={style.nav__link}><a href="https://dribbble.com/ericfrommelt" target="_blank">Dribbble</a></li>
-            <li className={style.nav__link}><a href="https://codepen.io/alphanumeric" target="_blank">Codepen</a></li>
-            <li className={style.nav__link}><a href="https://github.com/ericfrommelt" target="_blank">Github</a></li>
-          </ul>
-        </div>
-      </footer>
     </div>
   )
 }
