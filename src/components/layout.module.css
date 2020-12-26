@@ -39,6 +39,14 @@ figure {
   margin: 0;
 }
 
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
 .container {
   max-width: 90%;
   padding: 0 1rem;
