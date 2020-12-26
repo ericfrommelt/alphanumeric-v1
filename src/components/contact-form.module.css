@@ -1,0 +1,54 @@
+button,
+input,
+select,
+textarea {
+  font-family: "Ringside Regular SSm A", "Ringside Regular SSm B";
+  font-size: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+label p {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  padding: 0.5em;
+  border: 2px solid black;
+  border-radius: 0.2em;
+}
+
+input {
+  height: 2em;
+}
+
+textarea {
+  resize: none;
+  min-height: 6em;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: black;
+  font-size: 1.5em;
+  line-height: 0.9em;
+  transition: all ease 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+}
