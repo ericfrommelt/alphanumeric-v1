@@ -2,7 +2,7 @@ import * as React from 'react'
 import style from './contact-form.module.css'
 
 export default () => (
-  <form name="contact" action="/success" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+  <form name="contact" action="/success/" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
     <input type="hidden" name="contact" value="contact"></input>
     <section>
       <ul>
