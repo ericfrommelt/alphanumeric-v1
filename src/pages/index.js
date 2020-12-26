@@ -11,7 +11,7 @@ const IndexPage = (props) => {
         <div className={style.intro__content}>
           <Headshot />
           <p className={style.intro__copy}>
-          <span className={style.intro__copy__sans}>Hello, I’m Eric Frommelt</span> — a UX Engineer with a background in Art Direction and Design. I work on editorial experiences, microinteractions, prototypes and design systems. I love integrating editorial design, photography, illustration and animation through component based code. <span className={style.intro__copy__sans}>Hire me.</span>
+          <span className={style.intro__copy__sans}>Hello, I’m Eric Frommelt</span> — a UX Engineer with a background in Art Direction and Design. I work on editorial experiences, microinteractions, prototypes and design systems. I love integrating editorial design, photography, illustration and animation through component based code.
           </p>
         </div>
       </section>
