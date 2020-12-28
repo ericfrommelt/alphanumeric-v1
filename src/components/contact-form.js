@@ -25,7 +25,7 @@ export default () => (
           </label>
         </li>
       </ul>
-      <input className="btn__sendMessage" type="submit" value="Send Message" />
+      <input className="btn__sendMessage" type="submit" value="Send message" />
     </section>
   </form>
 )

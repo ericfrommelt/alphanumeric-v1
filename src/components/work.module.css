@@ -60,22 +60,44 @@
   }
 }
 
+.line {
+  display: inline-block;
+  min-height: 0.2em;
+  background-color: rgb(80, 80, 80);
+  width: 20%;
+}
+
 .projectRole {
   font-family: "Ringside Condensed A", "Ringside Condensed B";
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+@media screen and (min-width: 1088px) {
+  .projectRole {
+    letter-spacing: 1.4rem;
+  }
 }
 
 .projectDescription {
-  font-size: 1rem;
-  margin-top: 3em;
+  color: rgb(80, 80, 80);
+  font-size: 0.9rem;
+  margin: 3em 0;
 }
 
 .projectLink {
-  composes: projectRole;
-  font-weight: 700;
+  padding: 0.8em;
   color: rgba(1, 169, 130, 1);
+  border: 3px solid rgba(1, 169, 130, 1);
+  border-radius: 0.3em;
+  transition: all ease 0.3s;
+}
+
+.projectLink:hover {
+  background-color: rgba(1, 169, 130, 1);
+  color: white;
 }
 
 .projectTitleHpe {
@@ -90,7 +112,7 @@
 
 @media screen and (min-width: 700px) {
   .projectTitleHpe {
-    margin: 1em 0 0.5em -0.1em;
+    margin: 1em 0 0.2em -0.1em;
     font-size: 6rem;
     line-height: 5rem;
   }
@@ -98,7 +120,7 @@
 
 @media screen and (min-width: 1200px) {
   .projectTitleHpe {
-    margin: 0.2em 0 0.5em -0.1em;
+    margin: 0.2em 0 0.2em -0.1em;
     font-size: 10rem;
     line-height: 9rem;
   }

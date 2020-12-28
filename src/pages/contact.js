@@ -9,7 +9,7 @@ const ContactPage = () => {
     <Layout>
       <section className={style.contact}>
         <div className={style.contactInfo}>
-          <h1 className={style.contactHead}>Say Hello &#8212;</h1>
+          <h1 className={style.contactHead}>Say hello &#8212;</h1>
             <ContactForm />
           <h2 className={style.elsewhere__title}>Elsewhere &#8212;</h2>
           <ul className={style.elsewhere}>
