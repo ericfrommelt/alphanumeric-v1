@@ -3,6 +3,7 @@ import { graphql, StaticQuery } from 'gatsby'
 import Img from 'gatsby-image'
 import style from './anxious-times.module.css'
 
+// Number 1
 export default () => (
   <StaticQuery
     query={graphql`
