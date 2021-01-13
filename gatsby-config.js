@@ -1,13 +1,14 @@
 module.exports = {
     plugins: [
         {
-            resolve: `gatsby-plugin-google-analytics`,
-            options: {
-                trackingId: "G-62LWH56VMD",
-                head: true,
-                anonymize: true,
-            },
+        resolve: `gatsby-plugin-google-gtag`,
+        options: {
+            // You can add multiple tracking ids and a pageview event will be fired for all of them.
+            trackingIds: [
+            "G-62LWH56VMD",
+            ],
         },
+          },
         `gatsby-plugin-react-helmet`,
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
