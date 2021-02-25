@@ -72,12 +72,11 @@
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 1rem;
 }
 
 @media screen and (min-width: 1088px) {
   .projectRole {
-    letter-spacing: 1.4rem;
+    letter-spacing: 0.4rem;
   }
 }
 

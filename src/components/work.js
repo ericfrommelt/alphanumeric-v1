@@ -4,6 +4,10 @@ import Img from 'gatsby-image'
 import style from './work.module.css'
 import TheHunterRuns from '../components/collage/the-hunter-runs'
 import { Link } from 'gatsby'
+import WorkTransformationVideo from "../components/work-transformation-video"
+import WorkJennair from "../components/work-jennair"
+import WorkUxUi from "../components/work-uxui"
+import WorkIllustration from "../components/work-illustration"
 
 export default () => (
   <StaticQuery
@@ -49,19 +53,31 @@ export default () => (
           </div>
         </section>
         <section className={style.workSection}>
-        <div className={style.projectCollage}>
-          <figure className={style.projectFigure}>
-            <TheHunterRuns />
-          </figure>
-          <div className={style.projectInfo}>
-            <h3 className={style.projectTitleCollage}>Responsive Collage</h3>
-            <small className={style.projectRole}>Design and development</small>
-            <p className={style.projectDescription}>Exploring the seams of graphic storytelling with CSS grid. Ongoing project.</p>
-            <Link className={style.projectLink} to="/collage">View project</Link>
+          <div className={style.projectCollage}>
+            <figure className={style.projectFigure}>
+              <TheHunterRuns />
+            </figure>
+            <div className={style.projectInfo}>
+              <h3 className={style.projectTitleCollage}>Responsive Collage</h3>
+              <small className={style.projectRole}>Design and development</small>
+              <p className={style.projectDescription}>Exploring the seams of graphic storytelling with CSS grid. Ongoing project.</p>
+              <Link className={style.projectLink} to="/collage">View project</Link>
+            </div>
           </div>
-        </div>
-      </section>
-    </>
+        </section>
+        <section className={style.workSection}>
+          <WorkTransformationVideo />
+        </section>
+        <section className={style.workSection}>
+          <WorkJennair />
+        </section>
+        <section className={style.workSection}>
+          <WorkUxUi />
+        </section>
+        <section className={style.workSection}>
+          <WorkIllustration />
+        </section>
+      </>
     )}
   />
 )
