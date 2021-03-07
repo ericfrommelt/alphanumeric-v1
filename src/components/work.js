@@ -65,18 +65,6 @@ export default () => (
             </div>
           </div>
         </section>
-        <section className={style.workSection}>
-          <WorkTransformationVideo />
-        </section>
-        <section className={style.workSection}>
-          <WorkJennair />
-        </section>
-        <section className={style.workSection}>
-          <WorkUxUi />
-        </section>
-        <section className={style.workSection}>
-          <WorkIllustration />
-        </section>
       </>
     )}
   />
