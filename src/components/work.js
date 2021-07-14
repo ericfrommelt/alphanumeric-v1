@@ -48,7 +48,7 @@ export default () => (
               <h3 className={style.projectTitleHpe}>Tech Stories</h3>
               <small className={style.projectRole}>Design and development</small>
               <p className={style.projectDescription}>A collection of editorial experiences for HPE.</p>
-              <a className={style.projectLink} href="https://blissful-lichterman-3559c0.netlify.app/">View project</a>
+              <a className={style.projectLink} href="https://zealous-wright-9d0298.netlify.app/">View project</a>
             </div>
           </div>
         </section>

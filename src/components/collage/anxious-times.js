@@ -49,9 +49,6 @@ export default () => (
         <p className={ style.meta }>
           Anxious times
         </p>
-       <p className={ style.meta }>
-         Last updated: 01.01.2021
-       </p>
       </section>
       </>
     )}

@@ -42,9 +42,6 @@ export default () => (
         <p className={ style.meta }>
           The hunter runs
         </p>
-       <p className={ style.meta }>
-         Last updated: 01.03.2021
-       </p>
       </section>
       </>
     )}

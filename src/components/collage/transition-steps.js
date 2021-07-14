@@ -47,9 +47,6 @@ export default () => (
         <p className={ style.meta }>
           Transition steps
         </p>
-       <p className={ style.meta }>
-         Last updated: 01.04.2021
-       </p>
       </section>
       </>
     )}
