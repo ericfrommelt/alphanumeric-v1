@@ -8,12 +8,13 @@
 
 ## Todo
 
-- Setup gsap
+- ~~Setup gsap~~
 - animate art0001
 - About
   - visx visualizatiion
   - expanded introduction
   - colophon
+
 - Journal
   - Index
   - Entry
@@ -22,5 +23,4 @@
 
 ### Made with
 
-- GatsbyJs
-- CSS Modules
+- ~~GatsbyJs~~ Nuxt
