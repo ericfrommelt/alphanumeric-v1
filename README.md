@@ -8,7 +8,7 @@
 
 ## Todo
 
-- ~~Setup gsap~~
+- Setup gsap
 - animate art0001
 - About
   - visx visualizatiion
@@ -23,4 +23,4 @@
 
 ### Made with
 
-- ~~GatsbyJs~~ Nuxt
+- GatsbyJs
